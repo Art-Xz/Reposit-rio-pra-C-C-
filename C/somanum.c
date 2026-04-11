@@ -2,7 +2,7 @@
 
 int main(){
     int A= -1,B= -1,maior,menor,k,soma=0,fim=0;
-    while(true){
+    while(1){
         scanf("%d %d",&A,&B);
         if(A>B){maior = A;menor=B;}else{maior=B;menor=A;}
         for(k=menor;k<=maior;k++){
